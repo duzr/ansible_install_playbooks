@@ -1,0 +1,11 @@
+- name: Install TMUX
+  hosts: all
+  become: yes
+  remote_user: pi
+
+  tasks:
+  - name: Install tmux and dependencies
+    apt:
+      name: tmux
+      state: present
+      update_cache: true

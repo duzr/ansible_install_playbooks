@@ -1,0 +1,13 @@
+- name: Remove TMUX
+  hosts: all
+  become: yes
+  remote_user: pi
+
+  tasks:
+  - name: Remove tmux
+    apt:
+      name: tmux
+      state: absent
+  - name: Remove unneeded dependencies
+    apt:
+      autoremove: yes
