@@ -5,5 +5,6 @@ Playbooks that install things on things.
 
 ### APT - Installing packages on Debian-based systems (raspbian used)
 
-* apt-tmux-install.yaml
-* apt-tmux-remove.yaml
+--------------------- | ---------------------
+apt-tmux-install.yaml | Install TMUX
+apt-tmux-remove.yaml  | Remove TMUX
