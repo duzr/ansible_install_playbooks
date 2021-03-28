@@ -7,4 +7,4 @@ Playbooks that install things on things.
 
 --------------------- | ---------------------
 apt-tmux-install.yaml | Install TMUX
-apt-tmux-remove.yaml  | Remove TMUX
+apt-tmux-remove.yaml | Remove TMUX
